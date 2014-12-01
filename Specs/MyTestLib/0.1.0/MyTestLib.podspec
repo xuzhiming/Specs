@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   }
   s.vendored_frameworks = 'Pod/UMSCoreSDK.framework'
   s.dependency 'JSONKit-NoWarning', '1.2'
-  s.xcconfig = {"FRAMEWORK_SEARCH_PATHS" => "${PODS_ROOT}/MyTestLib/**"}
+  #s.xcconfig = {"FRAMEWORK_SEARCH_PATHS" => "${PODS_ROOT}/MyTestLib/**"}
 
   #s.compiler_flags = ''
   # s.public_header_files = 'Pod/Classes/**/*.h'
