@@ -25,11 +25,11 @@ s.source           = { :git => "https://github.com/xuzhiming/UMSCoreSDK.git", :t
 s.platform     = :ios, '6.0'
 s.requires_arc = true
 
-s.source_files = 'Pod/include/**/*.{h,m}'
+s.source_files = 'Product/**/*.{h,m}'
 
 #s.resource_bundles = {'UMSCoreSDK' => ['Pod/Assets/*.png']}
 #s.public_header_files = 'Pod/Classes/**/*.h'
-s.vendored_library = 'Pod/libUMSCloud.a'
+s.vendored_library = 'Product/libUMSCloud.a'
 
 s.dependency 'ProtocolBuffers', '~> 1.9.2'
 s.dependency 'JSONKit-NoWarning', '1.2'
