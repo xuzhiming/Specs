@@ -31,7 +31,7 @@ s.source_files = 'Product/**/*.{h,m}'
 #s.public_header_files = 'Pod/Classes/**/*.h'
 s.vendored_library = 'Product/libUMSCloud.a'
 
-s.dependency 'ProtocolBuffers', '~> 1.9.2'
+s.dependency 'ProtocolBuffers', '1.9.2'
 s.dependency 'JSONKit-NoWarning', '1.2'
 s.dependency 'OpenUDID', '1.0.0'
 s.dependency 'FMDB', '2.4'
